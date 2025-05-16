@@ -1,0 +1,17 @@
+name: pillagerbench
+services:
+    pillagerbench:
+        stdin_open: true
+        tty: true
+        volumes:
+        - .:/PILLAGER/
+        container_name: pillagerbench
+        build: .
+#        command: python main.py
+#        command: js-setup.sh
+        command: bash
+        ports:
+          - "49172:49172/tcp"
+          - "49172:49172/udp"
+        environment:
+          ANONYMIZED_TELEMETRY: "false"

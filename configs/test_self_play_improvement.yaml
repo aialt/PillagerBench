@@ -1,0 +1,1247 @@
+defaults:
+  - _self_
+  - agents:
+    - tacticrafter
+
+mc_port: 49172
+server_port: 3000
+env_wait_ticks: 80
+
+scenarios:
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode0/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode9/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode14/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario0/episode19/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode9/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode14/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario1/episode19/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode0/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode9/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode14/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario2/episode19/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode9/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode14/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario3/episode19/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode0/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode0/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode9/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode9/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode14/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode14/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode19/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario4/episode19/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+#    agent_kwargs:
+#      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode9/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode9/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode14/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode14/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode19/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_self_play_2/23-03-22/logs/scenario5/episode19/red_team
+
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ./logs/${now:%Y-%m-%d}/${now:%H-%M-%S}

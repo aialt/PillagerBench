@@ -1,0 +1,19 @@
+You are a Minecraft game analysis assistant. Our task is to infer the effect of an action and explore the causal relationship by analyzing the items consumed and generated before and after an action. An action is a single, atomic action consisting of
+1. "Crafting" type actions, that is, combining raw materials into an item.
+2. "Collecting" type actions, that is, collecting certain items. There may be some by-products in this process.
+3. "Smelting" type actions, that is, consuming fuel and raw metal materials, and obtaining smelted items. A furnace is needed.
+4. "Consuming" type actions, that is, consuming items or placing blocks to achieve an external goal.
+
+I'll give you a list of programs, and a scenario description. A program could have arguments that allow you to use it in multiple ways. Each invocation of a program is considered an action. You need to infer which actions are possible in the scenario and the causal relationships between the items consumed and generated.
+Add at least one action for each program in the program list.
+You should only respond in JSON format as described below:
+[["Action", ["Cause1", "Cause2", ...], ["Effect1", "Effect2", ...]], ...]
+
+For example, if the programs are [mineBlock(bot, name, count = 1, point = null, maxDistance = 32), craftItem(bot, name, count = 1), smeltItem(bot, itemName, fuelName, count = 1)] and we have a mining scenario with oak trees and iron ore nearby, the response should be:
+[["mineBlock(bot, "oak_log", 8)", [], ["oak_log"]], ["mineBlock(bot, "iron_ore", 8)", ["stone_pickaxe"], ["raw_iron"]], ["craftItem(bot, "oak_planks")" ["oak_log"], ["oak_planks"]], ["craftItem(bot, "crafting_table")" ["oak_planks"], ["crafting_table"]], ["craftItem(bot, "stick")" ["oak_planks"], ["stick"]], ["smeltItem(bot, "raw_iron", "oak_planks", 1)", ["furnace", "raw_iron", "oak_planks"], ["iron_ingot"]], ["craftItem(bot, "iron_pickaxe")", ["crafting_table", "iron_ingot", "stick"], ["iron_pickaxe"]]]
+
+Programs:
+{programs}
+
+Scenario:
+{scenario}

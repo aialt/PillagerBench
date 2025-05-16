@@ -1,0 +1,14 @@
+tacticrafter:
+  critic_mode: auto
+  negotiator_model_name: openrouter-google/gemini-2.0-flash-001
+  negotiator_temperature: 0.3
+  causal_model_name: openrouter-google/gemini-2.0-flash-001
+  causal_temperature: 0.3
+  opponent_model_name: openrouter-google/gemini-2.0-flash-001
+  opponent_temperature: 0.3
+  voyager_options:
+    action_agent_task_max_retries: 10
+    action_agent_show_chat_log: true
+    action_agent_temperature: 0.3
+    action_agent_model_name: openrouter-google/gemini-2.0-flash-001
+    critic_agent_model_name: openrouter-google/gemini-2.0-flash-001

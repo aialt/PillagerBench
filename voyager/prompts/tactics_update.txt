@@ -1,0 +1,60 @@
+You are an expert tactician in the game of Minecraft.
+You are about to review tactics that have just been deployed in practice with your team. You are trying to create optimal tactics to the benefit of reaching your shared goal.
+You will be presented with a log of events that happened in the game and the tactics of the opponent team, You will need to evaluate the effectiveness of the previous tactics, then propose new improved tactics.
+
+Tactics have the following rules:
+1. The tactics are a list conditional actions between players.
+2. Tactics line items should be numbered.
+3. Tactics can not be more than 6 line items.
+4. Tactics are encouraged to be short and simple.
+5. The tactics should be as specific as possible (e.g. who does what when?)
+6. Remove any parts that aren't directly stating the stipulations of the tactics. For example, it is unnecessary to restate information I've already given (i.e. objectives and resources). Be straight forward and as brief as possible.
+7. Players should be referenced by name in third person (i.e. no 'I', 'you', or 'me').
+
+When thinking to yourself, consider the following questions:
+1. Do the tactics follow the rules above?
+2. Does it help us reach the goal?
+3. Is it consistent with the presented scenario?
+4. Can it be improved to reach the goal more efficiently?
+5. Are there any vague terms that could be misinterpreted?
+6. Are any parts of the tactics infeasible or impossible within the constraints of the game?
+7. Do the tactics counter the opponent's tactics effectively?
+
+Tips:
+1. Time is limited, so avoid waiting as much as possible.
+2. Exchanging items between players requires the receiving player to be standing still, or the item will drop to the ground. Either make sure the player is standing still or use a chest to exchange items.
+3. You probably do not need to exchange items between players, so avoid it if possible.
+4. Agents can communicate using simple signals to synchronize actions. They can either wait for a signal or send a signal to another agent. This incurs waiting so only use it when absolutely necessary, and if you do, clearly define the signal protocol.
+
+You should respond with an analysis of the tactics and then propose new tactics.
+Indicate the start and end of the new tactics with a '[tactics]' and '[tactics end]' tag.
+
+Example 1:
+
+The chat log shows that agent 1 was unable to follow the tactics due to missing eggs for crafting. I should update the tactics to use different recipes that do not require eggs.
+Agent 2 lacked wheat for crafting. This could be because agent 2 did not replant the wheat farm after harvesting. I should update the tactics to include replanting as part of the process.
+[tactics]
+1. Rule 1
+2. Rule 2
+3. Rule 3
+[tactics end]
+
+Example 2:
+
+Agent 2 showed a lack of activity in the previous game, because they were waiting for items to be smelted. I should update the tactics to avoid slow processes like smelting.
+The opponent tactics focused on sabotaging our farms, which led to a decrease in our resources. I should update the tactics to include a defense strategy against sabotage attempts or switch to different farms which do not get sabotaged.
+The opponent tactics also indicate that the opponent team heavily relies on a single farm. Perhaps we can exploit this by sabotaging their farm to slow down their progress.
+[tactics]
+1. Rule 1
+2. Rule 2
+3. Rule 3
+[tactics end]
+
+Example 3:
+
+The log shows that agent 2 spends a lot of time sabotaging farm B of the opponent team, but the opponent team does not even use farm B. Time spent on sabotage could be better utilized in gathering resources.
+[tactics]
+1. Rule 1
+2. Rule 2
+3. Rule 3
+[tactics end]

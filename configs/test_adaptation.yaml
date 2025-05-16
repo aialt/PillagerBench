@@ -1,0 +1,1247 @@
+defaults:
+  - _self_
+  - agents:
+    - tacticrafter
+
+mc_port: 49172
+server_port: 3000
+env_wait_ticks: 80
+
+scenarios:
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario0/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario0/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario1/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario1/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario1/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario1/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario1/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario2/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario2/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario3/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario3/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario3/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario3/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario3/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario4/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/14-26-41/logs/scenario4/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario0/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario0/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario0/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario0/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario0/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario1/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario1/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario2/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario2/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario2/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario2/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario2/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario3/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario3/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario4/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario4/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario4/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario4/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario4/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario5/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario5/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario5/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario5/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario5/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario6/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario6/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario6/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario6/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario6/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario7/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario7/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario7/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario7/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario7/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario8/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario8/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario8/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario8/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario8/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario9/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario9/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario9/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario9/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario9/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario10/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario10/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario10/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario10/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario10/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario11/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario11/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario11/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario11/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario11/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario12/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario12/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario12/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario12/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario12/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario13/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario13/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario13/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario13/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario13/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario14/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario14/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario14/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario14/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario14/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario15/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario15/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario15/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario15/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario15/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario16/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario16/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario16/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario16/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario16/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario17/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario17/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario17/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario17/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario17/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario18/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario18/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario18/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario18/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario18/episode4/red_team
+#   M
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario19/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario19/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario19/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario19/episode4/red_team
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario19/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario20/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario20/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario20/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario20/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario20/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario21/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario21/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario21/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario21/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario21/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario22/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario22/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario22/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario22/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario22/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario23/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario23/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario23/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario23/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario23/episode4/red_team
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario24/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario24/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario24/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario24/episode4/red_team
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 1
+    kwargs:
+      episode_timeout: 120
+    agent_kwargs:
+      checkpoint_path: ../../../results/test_gpt4o/19-39-43/logs/scenario24/episode4/red_team
+
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ./logs/${now:%Y-%m-%d}/${now:%H-%M-%S}

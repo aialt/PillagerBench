@@ -1,0 +1,1 @@
+docker compose run --rm pillagerbench bash js_setup.sh

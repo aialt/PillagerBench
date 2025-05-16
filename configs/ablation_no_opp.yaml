@@ -1,0 +1,202 @@
+defaults:
+  - _self_
+  - agents:
+    - tacticrafter_no_opp
+
+mc_port: 49172
+server_port: 3000
+env_wait_ticks: 80
+
+scenarios:
+#   E
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+#   E
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+#   E
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_aggressive]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_balanced]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_passive]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Mushroom War
+    agent: tacticrafter
+    opponents: [mushroom_war_slimy]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+#   E
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [do_nothing]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_berries]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_cake_beetroot]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_melon_pumpkin]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+  - name: Dash and Dine
+    agent: tacticrafter
+    opponents: [dash_and_dine_potato_cookie]
+    num_episodes: 5
+    kwargs:
+      episode_timeout: 120
+
+hydra:
+  job:
+    chdir: True
+  run:
+    dir: ./logs/${now:%Y-%m-%d}/${now:%H-%M-%S}

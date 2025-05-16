@@ -1,0 +1,15 @@
+tacticrafter:
+  enable_opponent: false
+  critic_mode: auto
+  negotiator_model_name: gpt-4o-2024-08-06
+  negotiator_temperature: 0.3
+  causal_model_name: gpt-4o-2024-08-06
+  causal_temperature: 0.3
+  opponent_model_name: gpt-4o-2024-08-06
+  opponent_temperature: 0.3
+  voyager_options:
+    action_agent_task_max_retries: 10
+    action_agent_show_chat_log: true
+    action_agent_temperature: 0.3
+    action_agent_model_name: gpt-4o-2024-08-06
+    critic_agent_model_name: gpt-4o-2024-08-06
